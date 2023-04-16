@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  registry:
+    image: registry:2
+    ports:
+      - "5000:5000"
+    volumes:
+      - registry:/mnt/a28e3694-1396-4f5e-bf84-226e5c1e2d1e/registry
+
+volumes:
+  registry:
