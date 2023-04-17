@@ -1,0 +1,3 @@
+certbot_email: maxthekeeper@gmail.com
+certbot_hosts:
+  - registry.auction.maxthekeeper.site
